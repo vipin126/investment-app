@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get_core/src/get_main.dart';
+import 'package:get/get_navigation/get_navigation.dart';
+import 'package:investment_app/screens/homepage.dart';
 
 class RiskAssessmentScreen3 extends StatefulWidget {
   @override
@@ -125,7 +128,7 @@ class _RiskAssessmentScreenState extends State<RiskAssessmentScreen3> {
                     backgroundColor: Colors.green,
                     padding: EdgeInsets.symmetric(vertical: 15),
                   ),
-                  onPressed: () {},
+                  onPressed: ()=>Get.to(()=>MainScreen()),
                 ),
               ),
     );
