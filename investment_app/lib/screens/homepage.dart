@@ -1,5 +1,7 @@
 
 import 'package:flutter/material.dart';
+import 'package:investment_app/screens/investmentOptionScreen.dart';
+import 'package:investment_app/screens/investmentScreen.dart';
 import 'package:pie_chart/pie_chart.dart';
 
 
@@ -13,8 +15,8 @@ class _MainScreenState extends State<MainScreen> {
 
   static List<Widget> _widgetOptions = <Widget>[
     InvestmentScreen(),
-    InvestmentScreen(),
-    InvestmentScreen(),
+    InvestmentPage(),
+    InvestmentOptionsScreen(),
     InvestmentScreen(),
   ];
 
